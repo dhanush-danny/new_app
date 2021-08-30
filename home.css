@@ -1,0 +1,18 @@
+body{
+    background-color: #172971;
+}
+#home_brain-drill{
+    font-family: Trebuchet MS;
+    color: #ff6a00;
+    font-size:66px;
+}
+#div_contain_logo{
+   margin-top: 500px; 
+}
+#div_contain_play-B{
+    margin-top:333px;
+}
+#setting_button_home{
+    margin-right: 333px;
+    margin-bottom: 5px;
+}
