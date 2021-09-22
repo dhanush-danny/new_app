@@ -4,24 +4,28 @@ function setting_to_home() {
 
 function setting_to_q() {
     window.location = "question.html";
-    music.play();
 }
 
-save();
-subject = "science";
+grade = "Four";
+localStorage.setItem("grade_key", grade);
+
+function grade_456() {
+    grade = document.getElementById("grade_dd").value;
+    localStorage.setItem("grade_key", grade);
+}
+
+language = "English";
+localStorage.setItem("language_key", language);
+
+function language_ehk() {
+    language = document.getElementById("language_dd").value;
+    localStorage.setItem("language_key", language);
+}
+
+subject = "Science";
 localStorage.setItem("subject_key", subject);
 
-function save() {
+function subject_sem() {
+    subject = document.getElementById("subject_dd").value;
     localStorage.setItem("subject_key", subject);
-}
-
-function volume_on() {
-    music = document.getElementById("myAudio");
-    music.play();
-    music.loop = true;
-}
-
-function no_volume() {
-    music = document.getElementById("myAudio");
-    music.pause();
 }

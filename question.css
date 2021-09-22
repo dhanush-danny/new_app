@@ -1,17 +1,60 @@
 body {
     background-color: #ffffff;
+    width: 100%;
+    height: 20%;
 }
 
 #contain_header {
     background-color: #172971;
-    width:100%;
-    height: 20%;
     text-align: center;
+    width: 1000px;
+    height: 320px;
 }
 
 #sub-lab {
     color: #ff6a00;
     font-family: Trebuchet MS;
     font-size: 50px;
-    margin-top: -200px;
+}
+
+#q_tag_number {
+    color: #172971;
+    font-family: Trebuchet MS;
+    font-size: 50px;
+    margin-top: 150px;
+}
+
+#question {
+    color: #172971;
+    font-family: Trebuchet MS;
+    font-size: 50px;
+    padding-top: 150px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+
+#container_q {
+    width: 900px;
+    height: 320px;
+}
+
+#logo_question {
+    margin-right: 80%;
+    margin-top: 80px;
+}
+
+#grade-lab {
+    color: #ff6a00;
+    font-family: Trebuchet MS;
+    font-size: 50px;
+}
+
+#language-lab {
+    color: #ff6a00;
+    font-family: Trebuchet MS;
+    font-size: 50px;
+}
+
+#three_in_center {
+    margin-top: -330px;
 }

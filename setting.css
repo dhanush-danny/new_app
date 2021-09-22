@@ -56,14 +56,12 @@ body {
 }
 
 #img_right_setting {
-    margin-top: 50px;
-    margin-bottom: 50px;
+    margin-top:21%;
     margin-left: 485px;
 }
 
 #img_left_setting {
-    margin-top: 50px;
-    margin-bottom: 50px;
+    margin-top:43%;
     margin-right: 250px;
 }
 
@@ -106,4 +104,14 @@ body {
 #logo_settings {
     margin-top: -220px;
     margin-left: 30px;
+}
+
+#ok_setting {
+    font-family: Trebuchet MS;
+    font-size: 40px;
+    color: #172971;
+    border-color: #172971;
+    border-width: thick;
+    padding-right: 10px;
+    padding-left: 10px;
 }
